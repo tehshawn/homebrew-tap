@@ -14,11 +14,9 @@ cask "mkvquickplay" do
   end
 
   depends_on formula: "mpv"
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "MKVQuickPlay.app"
 
-  zap trash: [
-    "~/Library/Preferences/com.mkvquickplay.app.plist",
-  ]
+  zap trash: "~/Library/Preferences/com.mkvquickplay.app.plist"
 end
