@@ -1,6 +1,6 @@
 cask "mkvquickplay" do
-  version "2.4.1"
-  sha256 "12e50467c962e1ff90d1a11b4bf2e3e267b1b97940982af5430c5210b734bd14"
+  version "2.4.2"
+  sha256 "1633629ecc9c72272a81ad4e9882293486500c041c409b319a4d1fab2fb9b589"
 
   url "https://github.com/tehshawn/mkvquickplay/releases/download/v#{version}/MKVQuickPlay-macOS-v#{version}.zip",
       verified: "github.com/tehshawn/mkvquickplay/"
